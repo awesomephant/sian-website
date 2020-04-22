@@ -16,5 +16,8 @@
     "@11ty/eleventy-plugin-inclusive-language": "^1.0.0",
     "eleventy-plugin-typeset": "github:liamfiddler/eleventy-plugin-typeset",
     "gh-pages": "^2.2.0"
+  },
+  "dependencies": {
+    "eleventy-plugin-sass": "^1.0.0"
   }
 }

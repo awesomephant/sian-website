@@ -1,0 +1,45 @@
+@mixin bp($point) {
+    @if $point==l {
+        @media (min-width: 70rem) {
+            @content;
+        }
+    }
+    @else if $point==m {
+        @media (min-width: 45rem) {
+            @content;
+        }
+    }
+
+    @else if $point==s {
+        @media (min-width: 35rem) {
+            @content;
+        }
+    }
+}
+
+:root {
+    --font-text: 'franklin-gothic-urw', 'IBM Plex Mono';
+    --ms-0: 1.1rem;
+    --ms-1: 1.65rem;
+    --ms-2: 2.475rem;
+    --ms-3: 2.475rem;
+    --ms-3: 2.475rem;
+    --beige: #fcf8d3;
+    --ratio: 1.25;
+    --ms-0: 1.2rem;
+    --ms--1: calc(var(--ms-0) / var(--ratio));
+    --ms-1: calc(var(--ms-0) * var(--ratio));
+    --ms-2: calc(var(--ms-1) * var(--ratio));
+    --ms-3: calc(var(--ms-2) * var(--ratio));
+    --ms-4: calc(var(--ms-3) * var(--ratio));
+    --ms-5: calc(var(--ms-4) * var(--ratio));
+    --ms-6: calc(var(--ms-5) * var(--ratio));
+    --ms-7: calc(var(--ms-6) * var(--ratio));
+}
+@include bp(m){
+    --ms-0: 1.5rem;
+}
+
+@include bp(l){
+    --ms-0: 1.8rem;
+}
