@@ -1,0 +1,13 @@
+---
+layout: base
+---
+
+<nav class='home--nav'>
+  {% for post in collections.post %}
+  <div>
+    <h3>Chapter {{forloop.index}}</h3>
+    <a href="{{post.url | url}}">{{ post.data.title }}</a>
+    <p>{{ post.data.intro }}</p>
+  </div>
+  {% endfor %}
+</nav>
