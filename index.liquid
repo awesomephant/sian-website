@@ -9,8 +9,28 @@ layout: base
 <nav class='dishes'>
   {% for dish in collections.recipe %}
   <div class='dish'>
-  <img class='dish-image' src="{{dish.data.thumb | prepend: "/assets/" | url}}" alt="">
-    <h3 class='dish-title'>{{dish.data.title}}</h3>
+    <a href="#1" class="dish-toggle" style='left: {{dish.data.x}}%; top: {{dish.data.y}}%'>
+      <img class='dish-image' src="{{dish.data.thumb | prepend: "/assets/" | url}}" alt="">
+      <h3 class='dish-title'>{{dish.data.title}}</h3>
+    </a>
+    <article class="dish-recipe">
+      <button class="recipe-close">
+        {% include icon-close %}
+      </button>
+      <h2 class="recipe-title">{{dish.data.title}}</h2>
+      <aside class="recipe-ingredients">
+        <h3>Ingredients</h3>
+        <ul>
+          {% for ingredient in dish.data.ingredients %}
+          <li class='recipe-ingredient'>{{ingredient}}</li>
+          {% endfor %}
+        </ul>
+      </aside>
+      <div class="recipe-content">
+        <h3>Preparation</h3>
+        {{dish.templateContent}}
+      </div>
+    </article>
   </div>
   {% endfor %}
 </nav>

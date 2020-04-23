@@ -18,19 +18,17 @@
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700&display=swap');
+@import url("https://use.typekit.net/utj6tpu.css");
 
 :root {
-    --font-display: 'WindsorDOT', 'IBM Plex Mono';
+    --font-display: 'cabazon', serif;
     --font-text: 'Work Sans', 'Franklin Gothic', Helvetica, sans-serif;
-    --ms-0: 1.1rem;
-    --ms-1: 1.65rem;
-    --ms-2: 2.475rem;
-    --ms-3: 2.475rem;
-    --ms-3: 2.475rem;
     --beige: #fcf8d3;
-    --pink: #effcff;
+    --green: #00ff2a;
+    --pink: #cdd0d6;
+    --brown: #2a1914;
     --ratio: 1.5;
-    --ms-0: 1.2rem;
+    --ms-0: 1.22rem;
     --ms--1: calc(var(--ms-0) / var(--ratio));
     --ms-1: calc(var(--ms-0) * var(--ratio));
     --ms-2: calc(var(--ms-1) * var(--ratio));

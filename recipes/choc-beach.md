@@ -3,6 +3,8 @@ tags: recipe
 date: 2019-01-02
 title: ‘Choc on the Beach’ Chocolate Salami with biscuit base
 thumb: Setting-the-Table-FULL-SPREAD_0008_ROCKS-N-SAND.png
+x: 22
+y: 15
 ---
 
 Smash 4 x Rich Tea biscuits into a mixing bowl (I used a pestle a mortar.)
