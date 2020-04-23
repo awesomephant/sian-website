@@ -6,12 +6,11 @@ layout: base
   <h1 class='site-title'>Setting the Table</h1>
 </header>
 
-<nav class='home--nav'>
-  {% for post in collections.post %}
-  <div>
-    <h3>Chapter {{forloop.index}}</h3>
-    <a href="{{post.url | url}}">{{ post.data.title }}</a>
-    <p>{{ post.data.intro }}</p>
+<nav class='dishes'>
+  {% for dish in collections.recipe %}
+  <div class='dish'>
+  <img class='dish-image' src="{{dish.data.thumb | prepend: "/assets/" | url}}" alt="">
+    <h3 class='dish-title'>{{dish.data.title}}</h3>
   </div>
   {% endfor %}
 </nav>

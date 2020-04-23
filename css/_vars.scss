@@ -17,15 +17,19 @@
     }
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700&display=swap');
+
 :root {
-    --font-text: 'franklin-gothic-urw', 'IBM Plex Mono';
+    --font-display: 'WindsorDOT', 'IBM Plex Mono';
+    --font-text: 'Work Sans', 'Franklin Gothic', Helvetica, sans-serif;
     --ms-0: 1.1rem;
     --ms-1: 1.65rem;
     --ms-2: 2.475rem;
     --ms-3: 2.475rem;
     --ms-3: 2.475rem;
     --beige: #fcf8d3;
-    --ratio: 1.25;
+    --pink: #effcff;
+    --ratio: 1.5;
     --ms-0: 1.2rem;
     --ms--1: calc(var(--ms-0) / var(--ratio));
     --ms-1: calc(var(--ms-0) * var(--ratio));

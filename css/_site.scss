@@ -1,0 +1,13 @@
+.site-header {
+    text-align: center;
+    font-family: var(--font-display);
+}
+
+.site-title {
+    padding-top: 3em;
+    font-size: var(--ms-5);
+    transform: scaleX(80%);
+    letter-spacing: .01em;
+    color: var(--pink);
+    text-shadow: 5px 5px 0px rgba(black, .9);
+}
