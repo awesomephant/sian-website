@@ -4,19 +4,26 @@ layout: base
 
 <header class='site-header'>
   <h1 class='site-title'>Setting the Table</h1>
+  <p class='site-intro'>
+    Setting the Table is a supper club which discusses the power of plant-based ingredients by utilising food as a
+    medium for image-making.
+  </p>
 </header>
 
 <nav class='dishes'>
   {% for dish in collections.recipe %}
   <div class='dish'>
-    <a href="#1" class="dish-toggle" style='left: {{dish.data.x}}%; top: {{dish.data.y}}%'>
-      <img class='dish-image' src="{{dish.data.thumb | prepend: "/assets/" | url}}" alt="">
-      <h3 class='dish-title'>{{dish.data.title}}</h3>
+    <a href="#1" class="dish-toggle" style='left: {{dish.data.x}}vw; top: {{dish.data.y}}vw; width: {{dish.data.width}}%'>
+      <img class='dish-image' src="{{dish.data.thumb | prepend: "/assets/dishes/" | url}}" alt="">
+      <span class='dish-toggle-index'>{{forloop.index}}</span>
     </a>
     <article class="dish-recipe">
       <button class="recipe-close">
         {% include icon-close %}
       </button>
+      <div class="recipe-thumb">
+        <img src="{{dish.data.thumb | prepend: "/assets/dishes/" | url}}" alt="">
+      </div>
       <h2 class="recipe-title">{{dish.data.title}}</h2>
       <aside class="recipe-ingredients">
         <h3>Ingredients</h3>

@@ -2,9 +2,10 @@
 tags: recipe
 date: 2019-01-02
 title: Quick Pickled Grass
-thumb: Setting-the-Table-FULL-SPREAD_0001_FRUIT-BUSH.png
-x: 42
+thumb: grass.png
+x: 12
 y: 15
+width: 20
 ---
 
 Empty a quarter of a cup of white vinegar into a saucepan.

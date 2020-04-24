@@ -2,9 +2,10 @@
 tags: recipe
 date: 2019-01-02
 title: ‘Cheese’ Fondu Sun
-thumb: Setting-the-Table-FULL-SPREAD_0006_SUN.png
-x: 12
+thumb: sun.png
+x: -5
 y: 35
+width: 25
 ingredients:
     - 100g plain unsalted cashews
     - 1 full head of cauliflower

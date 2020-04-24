@@ -2,9 +2,10 @@
 tags: recipe
 date: 2019-01-02
 title: Fruit Bush
-thumb: Setting-the-Table-FULL-SPREAD_0001_FRUIT-BUSH.png
-x: 62
-y: 35
+thumb: bush.png
+x: 82
+y: 25
+width: 15
 ---
 
 Cut the top of an apple off.

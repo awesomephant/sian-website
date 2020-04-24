@@ -21,7 +21,7 @@ function handleRecipeClose() {
 
 function init() {
     dishes = document.querySelectorAll('.dish-toggle')
-    dishes[0].parentNode.classList.add('active')
+//    dishes[0].parentNode.classList.add('active')
     dishes.forEach((d) => {
         d.addEventListener('click', handleDishClick)
         let closeButtton = d.parentElement.querySelector('.recipe-close')

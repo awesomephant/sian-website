@@ -11,3 +11,14 @@
     color: var(--green);
     opacity: .8;
 }
+
+.site-intro {
+    max-width: 20em;
+    margin: 0 auto;
+    font-family: var(--font-text);
+    font-size: var(--ms-0);
+    text-align: left;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}

@@ -2,9 +2,10 @@
 tags: recipe
 date: 2019-01-02
 title: Tomato Aspic
-thumb: Setting-the-Table-FULL-SPREAD_0005_ROSE.png
-x: 40
-y: 50
+thumb: rose.png
+x: 20
+y: 70
+width: 25
 ingredients:
     - 2 whole sachets of agar-agar
     - 4 cups of tomato juice
