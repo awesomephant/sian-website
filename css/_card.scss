@@ -6,33 +6,46 @@
     overflow-y: auto;
     width: calc(100% - 1rem);
     padding: 1rem;
-    left:   .5rem;
+    left: .5rem;
     bottom: .5rem;
-    @include bp(m){
+    transform: scaleY(99%) translateY(10px);
+
+    @include bp(m) {
         left: 1rem;
         bottom: 1rem;
         width: calc(100% - 2rem);
         padding: 3rem;
     }
+
+    @include bp(xl) {
+        transform: scaleY(99%) translateY(10px) translateX(-50%);
+        left: 50%;
+        width: 80rem;
+    }
+
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     border-radius: 5px;
-    background: var(--beige);
+    background: url("/sian-website/assets/noise.png");
     opacity: 0;
     color: var(--brown);
     font-weight: 500;
     border: 3px solid var(--brown);
     transition: 200ms;
-    transform: scaleY(95%) translateY(10px);
     pointer-events: none;
-    
+
     h3 {
         font-weight: bold;
         margin-bottom: .5em;
     }
-    
+
     &.active {
         transform: scaleY(100%) translateY(0);
+
+        @include bp(xl) {
+            transform: scaleY(100%) translateY(0) translateX(-50%);
+        }
+
         pointer-events: all;
         opacity: 1;
     }
@@ -40,24 +53,31 @@
 
 .card-close {
     position: absolute;
-    top:   .5rem;
+    top: .5rem;
     right: .5rem;
-    @include bp(m){
+
+    @include bp(m) {
         top: 2rem;
         right: 2rem;
     }
+
     background: transparent;
     border: 0;
     cursor: pointer;
-    &:hover, &:focus {
+
+    &:hover,
+    &:focus {
         opacity: .8;
     }
+
     path {
         fill: var(--brown)
     }
+
     svg {
         width: 1.5rem;
-        @include bp(m){
+
+        @include bp(m) {
             width: 2rem;
         }
     }

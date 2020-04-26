@@ -26,6 +26,9 @@
     @include bp(l) {
         grid-column: span 4;
     }
+    @include bp(xl) {
+        grid-column: span 3;
+    }
 
     text-decoration: none;
     height: auto;

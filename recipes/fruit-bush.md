@@ -5,7 +5,7 @@ title: Fruit Bush
 thumb: bush.png
 x: 82
 y: 25
-width: 90
+width: 70
 ingredients:
     - One apple
     - Mint leaves
