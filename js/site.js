@@ -4,6 +4,10 @@ let state = {
     recipeActive: true
 }
 
+function gra(min, max) {
+    return Math.random() * (max - min) + min;
+}
+
 function handleDishClick() {
     let p = this.parentElement;
     dishes.forEach((d) => {
@@ -20,13 +24,17 @@ function handleRecipeClose() {
 }
 
 function init() {
-    dishes = document.querySelectorAll('.dish-toggle')
+   dishes = document.querySelectorAll('.dish-toggle')
 //    dishes[0].parentNode.classList.add('active')
     dishes.forEach((d) => {
         d.addEventListener('click', handleDishClick)
         let closeButtton = d.parentElement.querySelector('.recipe-close')
-        console.log(closeButtton)
         closeButtton.addEventListener('click', handleRecipeClose)
+
+        let x = gra(-100, 100)
+        let y = gra(-100, 100)
+        d.style.transform = `translateX(${x}px) translateY(${y}px)`
+
     })
 }
 window.addEventListener('DOMContentLoaded', function () {

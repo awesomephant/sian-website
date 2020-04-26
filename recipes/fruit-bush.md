@@ -5,7 +5,12 @@ title: Fruit Bush
 thumb: bush.png
 x: 82
 y: 25
-width: 15
+width: 90
+ingredients:
+    - One apple
+    - Mint leaves
+    - Raspberries
+    - Toothpicks
 ---
 
 Cut the top of an apple off.

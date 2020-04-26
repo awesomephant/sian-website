@@ -13,7 +13,7 @@ layout: base
 <nav class='dishes'>
   {% for dish in collections.recipe %}
   <div class='dish'>
-    <a href="#1" class="dish-toggle" style='left: {{dish.data.x}}vw; top: {{dish.data.y}}vw; width: {{dish.data.width}}%'>
+    <a href="#1" class="dish-toggle" style='width: {{dish.data.width}}%'>
       <img class='dish-image' src="{{dish.data.thumb | prepend: "/assets/dishes/" | url}}" alt="">
       <span class='dish-toggle-index'>{{forloop.index}}</span>
     </a>

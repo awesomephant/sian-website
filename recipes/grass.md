@@ -5,7 +5,15 @@ title: Quick Pickled Grass
 thumb: grass.png
 x: 12
 y: 15
-width: 20
+width: 90
+ingredients:
+    - A quarter of a cup of white vinegar
+    - Bay leaf
+    - 1 tsp of table salt
+    - 1 tsp of white sugar
+    - A handful of peppercorns
+    - Half a head of broccoli
+    - Half a bunch of fresh dill
 ---
 
 Empty a quarter of a cup of white vinegar into a saucepan.

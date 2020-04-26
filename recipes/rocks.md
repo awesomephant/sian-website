@@ -5,7 +5,7 @@ title: ‘Choc on the Beach’ Chocolate Salami with biscuit base
 thumb: rocks.png
 x: 52
 y: 15
-width: 25
+width: 100
 ingredients:
     - 4 Rich Tea biscuits
     - 2 tbsp of dried apricots
