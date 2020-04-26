@@ -1,0 +1,12 @@
+.btn {
+    appearance: none;
+    border: 2px solid var(--brown);
+    border-radius: 2px;
+    padding: .5em;
+    display: inline-block;
+    font-family: var(--font-text);
+    font-weight: 500;
+    background: var(--beige);
+    cursor: pointer;
+    font-size: var(--ms-0);
+}

@@ -9,32 +9,40 @@ function gra(min, max) {
 }
 
 function handleDishClick() {
-    let p = this.parentElement;
-    dishes.forEach((d) => {
-        d.parentNode.classList.remove('active')
-    })
+    let p = this.parentElement.querySelector('.dish-recipe');
+    try {
+        document.querySelector('.dish-recipe.active').classList.remove('active')
+    } catch (e){
+
+    }
+    
     state.recipeActive = true;
     p.classList.add("active")
 }
 
-function handleRecipeClose() {
-    let p = this.parentElement.parentElement;
-    state.recipeActive = false;
-    p.classList.remove("active")
+function handleCardClose() {
+    document.querySelector('.card.active').classList.remove("active")
 }
 
 function init() {
-   dishes = document.querySelectorAll('.dish-toggle')
-//    dishes[0].parentNode.classList.add('active')
+    dishes = document.querySelectorAll('.dish-toggle')
+    introToggle = document.querySelector('.intro-toggle')
+    intro = document.querySelector('.site-intro')
+    // dishes[0].parentNode.querySelector('.card').classList.add('active')
+    let closeButttons = document.querySelectorAll('.card-close')
+    closeButttons.forEach((b) => {
+        b.addEventListener('click', handleCardClose)
+    })
     dishes.forEach((d) => {
         d.addEventListener('click', handleDishClick)
-        let closeButtton = d.parentElement.querySelector('.recipe-close')
-        closeButtton.addEventListener('click', handleRecipeClose)
+        let x = gra(-20, 20)
+        let y = gra(-20, 20)
+        d.style.transform = `translateX(${x}%) translateY(${y}%)`
 
-        let x = gra(-100, 100)
-        let y = gra(-100, 100)
-        d.style.transform = `translateX(${x}px) translateY(${y}px)`
+    })
 
+    introToggle.addEventListener('click', () => {
+        intro.classList.toggle('active')
     })
 }
 window.addEventListener('DOMContentLoaded', function () {
