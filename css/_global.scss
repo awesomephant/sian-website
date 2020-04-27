@@ -16,9 +16,5 @@ body {
     font-size: var(--ms-0);
     min-height: 100vh;
     overflow-x: hidden;
-    border: 1rem solid var(--beige);
-    @include bp(m){
-        border: 2rem solid var(--beige);
-    }
     border-bottom: 0;
 }

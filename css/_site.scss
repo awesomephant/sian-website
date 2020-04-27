@@ -14,6 +14,7 @@
     font-size: var(--ms-5);
     transform: scaleX(78%);
     letter-spacing: -.01em;
+    word-spacing: -.05em;
     @include bp(m){
         margin-bottom: .5em;
         transform: scaleX(85%);
