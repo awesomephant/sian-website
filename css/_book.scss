@@ -29,7 +29,7 @@
     grid-template-columns: 1fr 1fr;
     box-shadow: 10px 10px 0 0 rgba(black, .2);
     
-    [data-currentSpread="1"] &{
+    [data-currentSpread="1"] &, [data-currentSpread="11"] &{
         box-shadow: none;
    }
 
