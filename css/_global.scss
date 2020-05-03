@@ -8,13 +8,12 @@
 
 body {
     background-color: var(--beige);
-    background-image: url("/sian-website/assets/bg.png"), url("/sian-website/assets/noise.png");
-    background-size: cover, auto;
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat, repeat;
+    background-image: url("/sian-website/assets/noise.png");
+    background-size: auto;
+    background-repeat: repeat;
     font-size: var(--ms-0);
-    min-height: 100vh;
+    height: 100vh;
     overflow-x: hidden;
-    border-bottom: 0;
+    overflow-y: hidden;
+    border: 20px solid white;
 }

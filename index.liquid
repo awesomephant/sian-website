@@ -2,49 +2,39 @@
 layout: base
 ---
 
-<header class='site-header'>
-  <h1 class='site-title'>Setting the Table</h1>
-  <button class="intro-toggle btn">Read the Introduction</button>
-</header>
-
-<article class="site-intro card">
-  <button class="card-close">
-    {% include icon-close %}
-  </button>
-  <p>
-    Setting the Table is a supper club which discusses the power of plant-based ingredients by utilising food as a
-    medium for image-making.
-  </p>
-</article>
-
-<nav class='dishes'>
-  {% for dish in collections.recipe %}
-  <div class='dish'>
-    <a href="#1" class="dish-toggle" style='width: {{dish.data.width}}%'>
-      <img class='dish-image' src="{{dish.data.thumb | prepend: "/assets/dishes/" | url}}" alt="">
-      <span class='dish-toggle-index'>{{forloop.index}}</span>
-    </a>
-    <article class="dish-recipe card">
-      <button class="card-close">
-        {% include icon-close %}
-      </button>
-      <div class="recipe-thumb">
-        <img src="{{dish.data.thumb | prepend: "/assets/dishes/" | url}}" alt="">
+<div class="book-container">
+  <header class='book' data-currentSpread='3'>
+    <div class="spread">
+      <div class="page recto cover">
+        <h1 class='book-title'>Setting the Table</h1>
       </div>
-      <h2 class="recipe-title">{{dish.data.title}}</h2>
-      <aside class="recipe-ingredients">
-        <h3 class='recipe-section-title'>Ingredients</h3>
-        <ul>
-          {% for ingredient in dish.data.ingredients %}
-          <li class='recipe-ingredient'>{{ingredient}}</li>
-          {% endfor %}
-        </ul>
-      </aside>
-      <div class="recipe-content">
-        <h3 class='recipe-section-title'>Preparation</h3>
-        {{dish.templateContent}}
+    </div>
+    {% for dish in collections.recipe %}
+    <div class="spread">
+      <div class="page verso">
+        <img class='recipe-image' src="{{dish.data.thumb | prepend: "/assets/dishes/" | url}}" alt="">
+        <span class="page-number">{{forloop.index | times: 2 | minus: 1}}</span>
       </div>
-    </article>
-  </div>
-  {% endfor %}
-</nav>
+      <div class="page recto">
+        <article class="recipe">
+          <h2 class="recipe-title">
+            {{dish.data.title}}
+          </h2>
+          <ul class="recipe-ingredients">
+            {% for ingredient in dish.data.ingredients %}
+            <li class='recipe-ingredient'>{{ingredient}}</li>
+            {% endfor %}
+          </ul>
+          <div class="recipe-content">
+            {{dish.templateContent}}
+          </div>
+        </article>
+      </div>
+    </div>
+    {% endfor %}
+    <div class="spread">
+      <div class="page backcover verso">
+      </div>
+    </div>
+  </header>
+</div>
