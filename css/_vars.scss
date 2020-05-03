@@ -25,13 +25,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700&display=swap');
 
 @font-face {
-    font-family: fraktur;
-    src: url("/sian-website/assets/FetteUNZFraktur.ttf")
+    font-family: Windsor;
+    src: url("/sian-website/assets/WindsorDOT-Bol.otf");
+    font-weight: bold;
 }
 
 
 :root {
-    --font-display: 'WindsorDOT', serif;
+    --font-display: 'Windsor', serif;
     --font-text: 'Work Sans', 'Franklin Gothic', Helvetica, sans-serif;
     --beige: #fcf8d3;
     --green: #00fd0d;
