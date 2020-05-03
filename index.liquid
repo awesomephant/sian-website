@@ -3,16 +3,22 @@ layout: base
 ---
 
 <div class="book-container">
-  <header class='book' data-currentSpread='3'>
+  <header class='book' data-currentSpread='1'>
     <div class="spread">
       <div class="page recto cover">
         <h1 class='book-title'>Setting the Table</h1>
       </div>
     </div>
     {% for dish in collections.recipe %}
-    <div class="spread">
+    <div class="spread" data-title="{{dish.data.title}}">
       <div class="page verso">
         <img class='recipe-image' src="{{dish.data.thumb | prepend: "/assets/dishes/" | url}}" alt="">
+        <h3>Ingredients</h3>
+        <ul class="recipe-ingredients">
+          {% for ingredient in dish.data.ingredients %}
+          <li class='recipe-ingredient'>{{ingredient}}</li>
+          {% endfor %}
+        </ul>
         <span class="page-number">{{forloop.index | times: 2 | minus: 1}}</span>
       </div>
       <div class="page recto">
@@ -20,11 +26,6 @@ layout: base
           <h2 class="recipe-title">
             {{dish.data.title}}
           </h2>
-          <ul class="recipe-ingredients">
-            {% for ingredient in dish.data.ingredients %}
-            <li class='recipe-ingredient'>{{ingredient}}</li>
-            {% endfor %}
-          </ul>
           <div class="recipe-content">
             {{dish.templateContent}}
           </div>
