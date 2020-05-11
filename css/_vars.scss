@@ -39,7 +39,7 @@
     --pink: #cdd0d6;
     --brown: #2a1914;
     --ratio: 1.33;
-    --ms-0: 1.12rem;
+    --ms-0: clamp(.9rem, calc(.6vw + .6vh), 1.3rem);
     --ms--1: calc(var(--ms-0) / var(--ratio));
     --ms-1: calc(var(--ms-0) * var(--ratio));
     --ms-2: calc(var(--ms-1) * var(--ratio));
@@ -48,11 +48,4 @@
     --ms-5: calc(var(--ms-4) * var(--ratio));
     --ms-6: calc(var(--ms-5) * var(--ratio));
     --ms-7: calc(var(--ms-6) * var(--ratio));
-}
-@include bp(m){
-    --ms-0: 1.5rem;
-}
-
-@include bp(l){
-    --ms-0: 1.8rem;
 }
