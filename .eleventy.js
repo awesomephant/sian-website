@@ -11,7 +11,7 @@ module.exports = function (eleventyConfig) {
 
     eleventyConfig.addShortcode("fig", function (url, caption) {
         return (
-            `<figure><img loading="lazy" src='/sian-website/${url}'/><figcaption>${caption}</figcaption></figure>
+            `<figure><img loading="lazy" src='/assets/${url}'/><figcaption>${caption}</figcaption></figure>
             `
         );
     });
@@ -25,7 +25,4 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy("site.webmanifest");
 
     eleventyConfig.addPlugin(pluginSass, {});
-    return {
-        pathPrefix: "/sian-website/"
-    }
 };
