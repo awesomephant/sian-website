@@ -2,10 +2,7 @@
 tags: recipe
 date: 2019-01-02
 title: Choc-Rocks
-thumb: rocks.png
-x: 52
-y: 15
-width: 100
+thumb: rocks.jpg
 ingredients:
     - 4 Rich Tea biscuits
     - 2 tbsp of dried apricots

@@ -12,13 +12,15 @@ layout: base
     {% for dish in collections.recipe %}
     <div class="spread" data-title="{{dish.data.title}}">
       <div class="page verso">
-        <img class='recipe-image' src="{{dish.data.thumb | prepend: "/assets/dishes/" | url}}" alt="">
-        <h3>Ingredients</h3>
-        <ul class="recipe-ingredients">
-          {% for ingredient in dish.data.ingredients %}
-          <li class='recipe-ingredient'>{{ingredient}}</li>
-          {% endfor %}
-        </ul>
+        <img class='recipe-image' src="{{dish.data.thumb | prepend: "/assets/images/" | url}}" alt="">
+        <aside class="recipe-ingredients" data-position={{dish.data.recipePosition}}>
+          <h3>Ingredients</h3>
+          <ul>
+            {% for ingredient in dish.data.ingredients %}
+            <li class='recipe-ingredient'>{{ingredient}}</li>
+            {% endfor %}
+          </ul>
+        </aside>
         <span class="page-number">{{forloop.index | times: 2 | minus: 1}}</span>
       </div>
       <div class="page recto">

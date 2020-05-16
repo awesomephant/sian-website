@@ -2,7 +2,8 @@
 tags: recipe
 date: 2019-01-02
 title: Face Pie Lid
-thumb: bush.png
+thumb: pie.jpg
+recipePosition: bottom
 ingredients: 
     - Jus-Roll pastry
     - Plant-based milk

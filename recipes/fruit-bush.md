@@ -2,10 +2,7 @@
 tags: recipe
 date: 2019-01-02
 title: Fruit Bush
-thumb: bush.png
-x: 82
-y: 25
-width: 70
+thumb: bush.jpg
 ingredients:
     - One apple
     - Mint leaves
