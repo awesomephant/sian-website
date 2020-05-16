@@ -1,7 +1,7 @@
 ---
 tags: recipe
 date: 2019-01-02
-title: Tomato Aspic
+title: Tomato Juice Aspic
 thumb: rose.png
 x: 20
 y: 70

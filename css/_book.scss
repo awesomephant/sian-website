@@ -105,9 +105,10 @@
     transform-origin: left;
     box-shadow: 10px 0 0px -0px rgba(0,0,0,0.1) inset;
     border-radius: 5px 1px 1px 5px;
+    position: relative;
     &:after {
         content: '';
-        position: absolute;
+        position: fixed;
         bottom: 0;
         left: .5rem;
         right: 0;

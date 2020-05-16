@@ -1,7 +1,7 @@
 ---
 tags: recipe
 date: 2019-01-02
-title: Quick Pickled Grass
+title: Dill Pickled Grass
 thumb: grass.png
 x: 12
 y: 15

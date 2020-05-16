@@ -1,7 +1,7 @@
 ---
 tags: recipe
 date: 2019-01-02
-title: ‘Choc on the Beach’ Chocolate Salami with biscuit base
+title: Choc-Rocks
 thumb: rocks.png
 x: 52
 y: 15

@@ -1,7 +1,7 @@
 ---
 tags: recipe
 date: 2019-01-02
-title: Nettle Pesto
+title: Park Nettle Pesto
 thumb: pesto.png
 x: 27
 y: 50

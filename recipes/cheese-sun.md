@@ -1,7 +1,7 @@
 ---
 tags: recipe
 date: 2019-01-02
-title: ‘Cheese’ Fondu Sun
+title: Savoury Sun Fondu
 thumb: sun.png
 x: -5
 y: 35

@@ -1,7 +1,7 @@
 ---
 tags: recipe
 date: 2019-01-02
-title: Twiglets
+title: Twigs / Chives
 thumb: twiglets.png
 x: 55
 y: 30
