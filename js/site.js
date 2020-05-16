@@ -9,7 +9,7 @@ function init() {
     const rectos = document.querySelectorAll('.recto')
     const versos = document.querySelectorAll('.verso')
     const spreads = document.querySelectorAll('.spread')
-    book.setAttribute('data-currentSpread', 8)
+//    book.setAttribute('data-currentSpread', 8)
 
     rectos.forEach((d) => {
         d.addEventListener('click', function (e) {

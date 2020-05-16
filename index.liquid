@@ -3,10 +3,25 @@ layout: base
 ---
 
 <div class="book-container">
-  <header class='book' data-currentSpread='1'>
+  <header class='book' data-currentSpread='2'>
     <div class="spread">
       <div class="page recto cover">
         <h1 class='book-title'>Setting the Table</h1>
+      </div>
+    </div>
+    <div class="spread" data-title="{{intro}}">
+      <div class="page verso">
+        <span class="page-number">1</span>
+      </div>
+      <div class="page recto">
+        <article class="recipe">
+          <h2 class="recipe-title">Introduction</h2>
+          <div class="recipe-content">
+            <p>Introduction goes here</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum dolor deserunt facere voluptatibus sapiente dignissimos consectetur cum esse, corporis fugit et at, earum odio aspernatur totam error ipsam numquam modi quae illo consequatur! Nostrum harum quo obcaecati! Mollitia, eos similique?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quis odit deserunt dolor non corrupti architecto reprehenderit sint magni excepturi, obcaecati aspernatur laboriosam optio aliquid tempore fuga maiores cum esse minus perspiciatis aliquam, eum in. Amet facere, unde earum ipsum distinctio fuga fugit! Similique ea molestias iste iusto accusamus ab. Aperiam illum aliquid minus voluptatum consequatur doloremque enim, accusantium aut.</p>
+          </div>
+        </article>
       </div>
     </div>
     {% for dish in collections.recipe %}
@@ -21,7 +36,7 @@ layout: base
             {% endfor %}
           </ul>
         </aside>
-        <span class="page-number">{{forloop.index | times: 2 | minus: 1}}</span>
+        <span class="page-number">{{forloop.index | times: 2 | minus: 1 | plus: 2}}</span>
       </div>
       <div class="page recto">
         <article class="recipe">
