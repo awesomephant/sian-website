@@ -1,5 +1,6 @@
 {
-  "name": "coding-course",
+  "name": "sian-website",
+  "private": true,
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -15,9 +16,6 @@
     "@11ty/eleventy": "^0.10.0",
     "@11ty/eleventy-plugin-inclusive-language": "^1.0.0",
     "eleventy-plugin-typeset": "github:liamfiddler/eleventy-plugin-typeset",
-    "gh-pages": "^2.2.0"
-  },
-  "dependencies": {
     "eleventy-plugin-sass": "^1.0.0"
   }
 }
