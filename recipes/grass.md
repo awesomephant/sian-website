@@ -2,7 +2,7 @@
 tags: recipe
 date: 2019-01-02
 title: Dill Pickled Grass
-thumb: grass.jpg
+thumb: grass
 recipePosition: bottom
 x: 12
 y: 15

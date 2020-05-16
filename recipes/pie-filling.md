@@ -2,7 +2,7 @@
 tags: recipe
 date: 2019-01-02
 title: Face Pie Filling
-thumb: pie.jpg
+thumb: pie
 recipePosition: bottom
 ingredients: 
     - Two white onions

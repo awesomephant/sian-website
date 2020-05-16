@@ -2,7 +2,7 @@
 tags: recipe
 date: 2019-01-02
 title: Savoury Sun Fondu
-thumb: sun.jpg
+thumb: sun
 x: -5
 y: 35
 width: 100

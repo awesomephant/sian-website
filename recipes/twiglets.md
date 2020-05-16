@@ -2,7 +2,7 @@
 tags: recipe
 date: 2019-01-02
 title: Twigs / Chives
-thumb: twigs.jpg
+thumb: twigs
 x: 55
 y: 30
 width: 98

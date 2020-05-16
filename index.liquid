@@ -27,7 +27,7 @@ layout: base
     {% for dish in collections.recipe %}
     <div class="spread" data-title="{{dish.data.title}}">
       <div class="page verso">
-        <img class='recipe-image' src="{{dish.data.thumb | prepend: "/assets/images/" | url}}" alt="">
+        <img class='recipe-image' src="{{dish.data.thumb | prepend: "/assets/images/" | url}}@800w.webp" alt="">
         <aside class="recipe-ingredients" data-position={{dish.data.recipePosition}}>
           <h3>Ingredients</h3>
           <ul>

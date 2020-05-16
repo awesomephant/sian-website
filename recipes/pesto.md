@@ -2,7 +2,7 @@
 tags: recipe
 date: 2019-01-02
 title: Park Nettle Pesto
-thumb: pesto.jpg
+thumb: pesto
 x: 27
 y: 50
 width: 80
