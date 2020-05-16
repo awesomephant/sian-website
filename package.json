@@ -5,7 +5,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "npx @11ty/eleventy --serve;gulp images",
+    "build": "npx @11ty/eleventy;gulp images",
     "start": "npx @11ty/eleventy --serve",
     "predeploy": "npx @11ty/eleventy",
     "deploy": "gh-pages -d _site"
