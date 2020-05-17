@@ -14,12 +14,10 @@
   "license": "ISC",
   "devDependencies": {
     "@11ty/eleventy": "^0.10.0",
-    "eleventy-plugin-typeset": "github:liamfiddler/eleventy-plugin-typeset",
     "eleventy-plugin-sass": "^1.0.0",
     "gulp-srcset": "^2.3.1",
     "gulp-cli": "*",
     "gulp": "*",
-    "imagemin-mozjpeg": "*",
     "gulp-using": "*"
   }
 }

@@ -25,7 +25,7 @@ Cover with allocated pastry half.
 
 Sink a sharp knife through the middle of the pastry into the pie contents - it needs to breathe when cooking.
 
-Begin to make your features from the remainder of the pastry : eyes, mouth, nose, ears etc.
+Begin to make your features from the remainder of the pastry: eyes, mouth, nose, ears etc.
 
 Secure the positions of your features onto the pie lid.
 
