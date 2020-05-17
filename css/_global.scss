@@ -15,4 +15,16 @@ body {
     height: 100vh;
     overflow-x: hidden;
     overflow-y: hidden;
+    cursor: none;
+}
+
+.cursor-container {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    position: fixed;
+    display: block;
+    z-index: 6000;
+    pointer-events: none;
 }
