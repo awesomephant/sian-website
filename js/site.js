@@ -54,7 +54,7 @@ function initCursor() {
     cursorCanvas.height = window.innerHeight;
 
     cursorCtx = cursorCanvas.getContext('2d')
-    cursorCtx.font = '500 18px Work Sans, sans-serif'
+    cursorCtx.font = '500 18px Arial, Helvetica, sans-serif'
     CanvasRenderingContext2D.prototype.roundRect = function (x, y, w, h, r) {
         if (w < 2 * r) r = w / 2;
         if (h < 2 * r) r = h / 2;
@@ -102,8 +102,8 @@ function init() {
 
     rectos.forEach((d) => {
         d.addEventListener('mouseover', function () {
-            cursorText = 'next'
-            cursor.width.target = cursorCtx.measureText(cursorText).width + 15;
+            cursorText = '→'
+            cursor.width.target = cursorCtx.measureText(cursorText).width + 10;
             window.setTimeout(function () {
                 cursor.textOpacity.target = 1;
             }, 70)
@@ -125,7 +125,7 @@ function init() {
 
     versos.forEach((d) => {
         d.addEventListener('mouseover', function () {
-            cursorText = 'previous'
+            cursorText = '←'
             cursor.width.target = cursorCtx.measureText(cursorText).width + 10;
             window.setTimeout(function () {
                 cursor.textOpacity.target = 1;
