@@ -30,14 +30,23 @@
     font-weight: bold;
 }
 
+@font-face {
+    font-family: WindsorOut;
+    src: url("/assets/WindsorOutDOT.otf");
+    font-weight: bold;
+}
+
 
 :root {
     --font-display: 'Windsor', serif;
+    --windsor: 'Windsor', serif;
+    --windsor-outline: 'WindsorOut', serif;
     --font-text: 'Work Sans', 'Franklin Gothic', Helvetica, sans-serif;
     --beige: #fcf8d3;
     --cover: #f36cff;
     --green: #00fd0d;
     --pink: #cdd0d6;
+    --blue: #0018d0;
     --brown: #2a1914;
     --ratio: 1.33;
     --ms-0: clamp(.9rem, calc(.6vw + .6vh), 1.1rem);

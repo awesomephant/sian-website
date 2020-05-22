@@ -52,6 +52,7 @@
     font-size: var(--ms-6);
     hyphens: auto;
     text-transform: lowercase;
+    font-size: 0;
 }
 
 .page {
@@ -77,6 +78,8 @@
         background-size: auto 100%;
         grid-template-columns: 1fr;
         align-items: center;
+        background-position: top right;
+        background-image: url(/assets/cover.svg);
         grid-row: 1 / 2;
         grid-column: 2 / 3;
         &:after {
@@ -93,10 +96,12 @@
         border-right: 2px solid var(--green);
     }
     h3 {
-        font-family: WindsorDOT;
-        font-size: var(--ms-2);
+        font-family: var(--windsor-outline);
+        color: var(--blue);
+        font-size: var(--ms-3);
         font-weight: bold;
         margin-bottom: .2em;
+        text-transform: lowercase;
     }
 }
 
@@ -132,14 +137,15 @@
     margin-bottom: 1em;
     line-height: .9;
     font-size: var(--ms-3);
-    color: var(--brown);
+    color: var(--blue);
+    text-transform: lowercase;
     transform: scaleX(.98);
     transform-origin: center;
     padding: 0.3em 0em;
     border-radius: 1em;
     letter-spacing: .01em;
     border: 2px solid var(--green);
-    font-family: WindsorDOT;
+    font-family: var(--windsor-outline);
 }
 
 .recipe-ingredients {
@@ -159,15 +165,17 @@
     padding-bottom: 2rem;
     letter-spacing: .02em;
     h2 {
-        font-weight: bold;
+        font-family: var(--windsor);
+        color: var(--blue);
         margin-top: 1em;
         margin-bottom: .2em;
     }
     p {
-        margin-bottom: .3em;
+        margin-bottom: 1em;
     }
     em {
-       font-family: var(--font-display); 
+       font-family: var(--font-display);
+       font-style: normal;
     }
     a {
         color: inherit;
@@ -188,6 +196,7 @@
 
 .page-number {
     position: absolute;
+    color: var(--blue);
     bottom: 1rem;
     left: 0;
     width: 100%;

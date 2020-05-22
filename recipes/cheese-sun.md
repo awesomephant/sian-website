@@ -1,6 +1,6 @@
 ---
 tags: recipe
-date: 2019-01-02
+date: 2019-01-01
 title: Savoury Sun Fondu
 thumb: sun
 x: -5

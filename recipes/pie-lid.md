@@ -1,6 +1,6 @@
 ---
 tags: recipe
-date: 2019-01-02
+date: 2019-01-07
 title: Face Pie Lid
 thumb: pie
 recipePosition: bottom
@@ -11,7 +11,7 @@ ingredients:
 
 ## Pie Lid
 
-This is really fun but also challenging. You’ll need a ready made roll of puff-pastry (I use Jus-Roll).
+This is really fun but also challenging. You’ll need a ready made roll of puff-pastry.
 
 Empty the contents of the pastry packet.
 

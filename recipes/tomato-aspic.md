@@ -1,6 +1,6 @@
 ---
 tags: recipe
-date: 2019-01-02
+date: 2019-01-04
 title: Tomato Juice Aspic
 thumb: tomato
 x: 20
