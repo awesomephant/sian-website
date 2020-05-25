@@ -98,6 +98,7 @@
     h3 {
         font-family: var(--windsor-outline);
         color: var(--blue);
+        letter-spacing: .04em;
         font-size: var(--ms-3);
         font-weight: bold;
         margin-bottom: .2em;
@@ -143,7 +144,7 @@
     transform-origin: center;
     padding: 0.3em 0em;
     border-radius: 1em;
-    letter-spacing: .01em;
+    letter-spacing: .04em;
     border: 2px solid var(--green);
     font-family: var(--windsor-outline);
 }
@@ -165,9 +166,12 @@
     padding-bottom: 2rem;
     letter-spacing: .02em;
     h2 {
-        font-family: var(--windsor);
+        font-size: var(--ms-3);
+        font-family: var(--windsor-outline);
+        text-transform: lowercase;
         color: var(--blue);
         margin-top: 1em;
+        letter-spacing: .04em;
         margin-bottom: .2em;
     }
     p {
