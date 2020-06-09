@@ -48,8 +48,8 @@
     --pink: #cdd0d6;
     --blue: #0018d0;
     --brown: #2a1914;
-    --ratio: 1.33;
-    --ms-0: clamp(.9rem, calc(.6vw + .6vh), 1.1rem);
+    --ratio: 1.25;
+    --ms-0: clamp(1rem, calc(.6vw + .6vh), 1.2rem);
     --ms--1: calc(var(--ms-0) / var(--ratio));
     --ms-1: calc(var(--ms-0) * var(--ratio));
     --ms-2: calc(var(--ms-1) * var(--ratio));

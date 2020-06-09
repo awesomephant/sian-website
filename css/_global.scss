@@ -9,12 +9,16 @@
 body {
     background-color: var(--beige);
     background-image: url("/assets/bg.webp");
-    background-size: 100%;
+    background-size: 100% auto;
     background-repeat: repeat;
+    background-attachment: fixed;
     font-size: var(--ms-0);
     height: 100vh;
-    overflow-x: hidden;
-    overflow-y: hidden;
+    @include bp(m){
+        background-size: cover;
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
     cursor: none;
 }
 

@@ -17,35 +17,23 @@ ingredients:
     - Coarse sea salt
 ---
 
-Pick a large mixing bowl’s worth of Nettles - I got mine from my local park.
-The leaves located at the top of the Nettle plant bare far more nutritional than those situated at the bottom/ middle. Pick the tops.
+pick a large mixing bowls worth of nettles (pick leaves from the top of the plant!) - i got mine from my local park.
 
-Thoroughly wash the nettles under cold water, and strain.
+thoroughly wash the nettles under cold water + strain then, empty the nettles into a saucepan + cover with water. 
 
-Empty the nettles into a saucepan, and cover with water.
+boil for 2 minutes. nothing more, nothing less. 
 
-Boil for 2 minutes. Nothing more, nothing less.
+put the kettle on + fill 1 x cup full of walnuts. 
 
-Put the kettle on.
+pour the boiled water over the walnuts and soak for 15 minutes. 
 
-Fill 1 cup full of walnuts.
+strain the nettles + empty the nettles into 
+a food blender + strain the walnuts and add in too. 
 
-Pour the boiled water over the walnuts and soak for 15 minutes.
+add a good lashing of extra virgin olive oil. 
 
-Strain the nettles, again.
+grate 4 x cloves of garlic into the blender +            2 x heaped tablespoons of nutritional yeast +
+squeeze 1/2 a lemon + a plentiful handful of basil. 
 
-Empty the nettles into a food blender.
+blend on a low speed + add coarse sea salt to taste. 
 
-Strain the walnuts, and add also.
-
-Add a good lashing of extra virgin olive oil.
-
-Grate 4 cloves of garlic into the blender, alongside 2 heaped tablespoons of nutritional yeast.
-
-Squeeze half a lemon also.
-
-Tear the leaves from a bunch of basil and, add.
-
-Blend on a low speed.
-
-Add coarse sea salt to taste.

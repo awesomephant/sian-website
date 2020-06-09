@@ -3,38 +3,26 @@ layout: base
 ---
 
 <div class="book-container">
-  <header class='book' data-currentSpread='1'>
+  <header class='book' data-currentSpread='2'>
     <div class="spread">
       <div class="page recto cover">
         <h1 class='book-title'>Setting the Table</h1>
       </div>
     </div>
     <div class="spread" data-title="{{intro}}">
-      <div class="page verso">
+      <div class="page verso empty">
         <span class="page-number">1</span>
       </div>
       <div class="page recto">
         <article class="recipe">
-          <h2 class="recipe-title">Introduction</h2>
-          <div class="recipe-content">
-            <p>
-              <em>Setting the Table</em> discusses the power of plant-based ingredients.
+          <div class="recipe-content intro">
+            <p>{% include title %} discusses the power of plant-based ingredients. 
             </p>
-            <p>
-              In the beginning, <em>Setting the Table</em> was initiated as an alternate supper club. It was an excuse
-              to settle into a restaurant seat whilst eating + talking + learning about the food being served.
+            <p>in the beginning, {% include title %} was initiated as an alternate supper club. it was an excuse to settle into a restaurant seat whilst eating + talking + learning about the food being served. 
             </p>
-            <p>
-              Supper clubs are a treat, but this object exists within the home. <em>Setting the Table</em> is a mutual
-              place of meeting; its terms differ to each consumer. Tuck in with y’nan, mother-in-law and those little
-              friends.
+            <p>supper clubs are a treat but, this game exists within the home.  
             </p>
-            <p>
-              <em>Setting the Table</em> as an online space allows the user to research and forward recipes that exist
-              within its physical format.
-            </p>
-            <p>
-              Eat up.
+            <p>{% include title %} is a mutual place of meeting; its terms differ to each consumer. tuck in with y’nan, mother-in-law and those little friends.
             </p>
             <footer>
               <p>By <a href="https://www.instagram.com/siany___m/">Sian Matthews</a>.</p>

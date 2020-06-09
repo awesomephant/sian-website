@@ -12,58 +12,39 @@ ingredients:
     - Icing sugar
 ---
 
-Smash 4 x Rich Tea biscuits into a mixing bowl (I used a pestle a mortar.)
+smash 4 x rich tea biscuits into a mixing bowl.
 
-Finely chop 2 x tbsp of dried apricots.
+finely chop 2 x tbsp of dried apricots. 
 
-Finely chop 2 x tbsp of salted almonds.
+finely chop 2 x tbsp of salted almonds + add 
+both dry ingredients to the mixing bowl.
 
-Add both dry ingredients to the mixing bowl.
+break a large bar of dark chocolate into a ceramic bowl. 
 
-Break a large bar of dark chocolate into a ceramic bowl.
+bring 1/2 a saucepan of water to the boil. 
 
-Bring 1/2 a saucepan of water to the boil.
+place the ceramic bowl over the circumference of the saucepan + watch the chocolate melt. 
 
-Place the ceramic bowl over the pan, fitting the circumference of the saucepan.
+once the chocolate has thoroughly melted add 
+1 x tbsp of olive oil + add 2 x tbsp of plant-based 
+milk. 
 
-Watch the chocolate melt.
+stir until there are no lumps.
 
-Once the chocolate has thoroughly melted add 1 tbsp of olive oil.
-Add 2 tbsp of plant-based milk.
+pour the chocolate mix into the dry ingredient mixing bowl + mix together + put to one side. 
 
-Stir until there are no lumps.
+cut out a rectangular piece of baking parchment that fits the size of your baking tray. 
 
-Pour the chocolate mix into the dry ingredient mixing bowl.
-Mix together.
+empty the mixture out horizontally into the centre of the paper + spread it out until a rough tube shape is formed. 
 
-Place the mixture to one side.
+wrap the mixture up in the baking parchment + smooth out its edges.  
 
-Cut out a rectangular piece of baking parchment (I cut mine to the size of a regular baking tray).
+pinch/ twist each end of the baking parchment + leave to set in the refrigerator for 1 hour.
 
-Empty the mixture out horizontally into the centre of the paper.
+remove from the refrigerator + remove baking parchment + cut the set mix into 4 equal pieces.
+ 
+sculpt the cuttings into rock-like objects with a small cutting knife +  once sculpted, crush 4 x plant-based biscuits into very fine dust like pieces.
 
-Spread out horizontally until a rough tube shape is formed.
+cover the base of a plate with the dust-like biscuit pieces + before placing the chocolate rocks onto the plate, sieve icing sugar over them. 
 
-Wrap the mixture up in the baking parchment.
-
-Smooth out all edges.
-
-Pinch/ twist each end of the baking parchment.
-
-Leave to set in the refrigerator for 1 hour.
-
-Remove from the refrigerator, and baking parchment.
-
-Cut the set mix into 4 equal pieces.
-
-Sculpt the cuttings into rock-like objects with a small cutting knife.
-
-Once sculpted, crush 4 plant-based (I used Oaties from Lidl) biscuits into very fine dust like pieces.
-
-Cover the base of a plate with the dust-like biscuit pieces.
-
-Before placing the chocolate rocks onto the plate sieve icing sugar over them.
-
-Fill the base of a serving dish with the biscuit-dust-sand.
-
-Top the base with the chocolate rocks.
+fill the base of a serving dish with the biscuit-dust + top the base with the chocolate rocks.

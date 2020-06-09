@@ -15,38 +15,25 @@ ingredients:
     - Chives
 ---
 
-Preheat the oven to gas mark 6.
+preheat the oven to gas mark 6. 
 
-Empty out 150g of wholemeal flour into a mixing bowl.
+empty out 150g of wholemeal flour into a mixing bowl.
 
-Add 1 tsp of olive oil.
+add 1 x tsp of olive oil + add 1 x tsp of salt + add 1 tsp of water --> (if the mixture appears too dry, add more water tsp by tsp).
 
-Add 1 tsp of salt.
+mix together + form a dough. 
 
-Add 1 tsp of water. (if the mixture appears too dry - add more water tsp by tsp)
+melt 30g of vegan butter in a saucepan, with 1 x heaped tbsp of marmite. 
 
-Mix together + form a dough.
+place the wholemeal mixture onto a flour dusted board + roll out into a thin and consistent 
+rectangle. 
 
-Melt 30g of vegan butter in a saucepan, with 1 heaped tbsp of marmite.
+find a pastry brush + coat the first side of the dough with the marmite + butter glaze.
 
-Place the wholemeal mixture onto flour dusted board.
+cover the glazed side with a piece of baking parchment + carefully flip the dough so that the glazed side is face down. 
 
-Roll out into a thin and consistent rectangle.
+place onto a baking tray + coat the other side + 
+slice into thin strips. 
 
-Find a pastry brush.
+bake for 6 - 10minutes; keep your eye on them, as they may need more time + plate on a bed of finely chopped chives.
 
-Coat the first side of the dough with the marmite and butter glaze.
-
-Cover the glazed side with a piece of baking parchment.
-
-Carefully flip the dough so that the glazed side is face down.
-
-Place onto a baking tray.
-
-Coat the other side.
-
-Cut the dough into thin strips.
-
-Place in the oven for 6 - 10minutes; keep your eye on them, as they may need more time.
-
-Plate on a bed of chives.

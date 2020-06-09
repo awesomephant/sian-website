@@ -13,23 +13,15 @@ ingredients:
     - salt and pepper
 ---
 
-Pour a quarter of a cup of cold water into a saucepan.
+pour a 1/4 of a cup of cold water into a saucepan.
 
-Empty 2 whole sachets of agar-agar (I use Waitroses’ own) over the cold water.
+empty 2 x sachets of agar-agar over the cold water. 
 
-Let the contents stand for 5 minutes.
+let the contents of the pan stand for 5 minutes. 
 
-Add a quarter of a cup of boiling water to the saucepan and whisk.
+add a 1/4 of a cup of boiling water to the saucepan and whisk + add 4 x cups of tomato juice + add  1 x finely finely finely chopped white onion + add salt and pepper (to your own taste).
 
-Add 4 cups of tomato juice.
+bring to the boil + keep at a high heat for 15 minutes. 
 
-Add 1 finely finely finely chopped white onion. I use a mandolin.
+pour into mould and refrigerate.
 
-Add salt and pepper (to your own taste).
-
-Bring to the boil, and keep at a high heat for 15 minutes.
-
-Pour into mould and refrigerate.
-
-(Agar-agar sets super fast - it will be ready to eat in just a few hours. However, if you’re expecting guests I would prepare
-the night before.)

@@ -18,31 +18,24 @@ ingredients:
     - 2 x pinches of Maldon salt
 ---
 
-## Filling
+dice 2 x white onions. 
 
-Dice two white onions.
+grate 6 x cloves of garlic.
 
-Grate 6 cloves of garlic.
+drizzle olive oil into a large saucepan. 
 
-Drizzle olive oil into a large saucepan.
+place saucepan over a medium heat + add onions and garlic to the saucepan. 
 
-Place saucepan over a medium heat.
+once the onions turn translucent, add 3 x cans of cannellini beans + 1/2 a cup of oatly cream. 
 
-Add onions and garlic to the saucepan.
+add 90ml of white wine. 
 
-Once the onions turn translucent, add 3 cans of cannelloni beans + 1/2 a cup of Oatly cream.
+bring the contents of the saucepan to the boil 
+and simmer for 20 minutes + take the pan off 
+the heat. 
 
-Add 90ml of white wine.
+chop 10g of fresh-flat-leaf parsley as finely as you can. 
 
-Bring the contents of the saucepan to the boil and simmer for 20 minutes.
+add to the white bean mix + add 1 x heaped tbsp of brown miso + 1 x tbsp of peanut butter.
 
-Take the pan off the heat.
-
-Chop 10g of fresh flat-leaf parsley as finely as you can.
-Add to the white bean mix.
-
-Add 1 heaped tbsp of brown miso too + 1 tbsp of peanut butter (I use smooth).
-
-Add 1/2 a cup of vegetable stock.
-
-Add 2 x pinches of Maldon salt (coarse sea salt).
+add 1/2 a cup of vegetable stock + add 2 x pinches of coarse sea salt. 

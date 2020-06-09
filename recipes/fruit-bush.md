@@ -10,8 +10,9 @@ ingredients:
     - Toothpicks
 ---
 
-Cut the top of an apple off.
-Place the apple top-downwards onto a small plate.
-Using toothpicks build up foliage with mint leaves and raspberries.
-Once formed insert the toothpick into the apple.
-Continue this process until the apple is full.
+cut the top of an apple off + place the apple top-downwards onto a small plate. 
+
+using toothpicks build up foliage with mint leaves + raspberries. 
+
+once formed, insert the toothpick into the apple +
+continue this process until the apple is full.
