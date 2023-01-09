@@ -13,7 +13,7 @@
   "author": "Max Kohler",
   "license": "ISC",
   "devDependencies": {
-    "@11ty/eleventy": "^0.10.0",
+    "@11ty/eleventy": "^1.0.2",
     "eleventy-plugin-sass": "^1.0.0",
     "gulp-srcset": "^2.3.1",
     "gulp-cli": "*",
