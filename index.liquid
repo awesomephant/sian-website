@@ -16,13 +16,13 @@ layout: base
       <div class="page recto">
         <article class="recipe">
           <div class="recipe-content intro">
-            <p>{% include title %} discusses the power of plant-based ingredients. 
+            <p>{% include "title" %} discusses the power of plant-based ingredients.
             </p>
-            <p>in the beginning, {% include title %} was initiated as an alternate supper club. it was an excuse to settle into a restaurant seat whilst eating + talking + learning about the food being served. 
+            <p>in the beginning, {% include "title" %} was initiated as an alternate supper club. it was an excuse to settle into a restaurant seat whilst eating + talking + learning about the food being served.
             </p>
-            <p>supper clubs are a treat but, this game exists within the home.  
+            <p>supper clubs are a treat but, this game exists within the home.
             </p>
-            <p>{% include title %} is a mutual place of meeting; its terms differ to each consumer. tuck in with y’nan, mother-in-law and those little friends.
+            <p>{% include "title" %} is a mutual place of meeting; its terms differ to each consumer. tuck in with y’nan, mother-in-law and those little friends.
             </p>
             <footer>
               <p>By <a href="https://www.instagram.com/siany___m/">Sian Matthews</a>.</p>
@@ -34,7 +34,8 @@ layout: base
     {% for dish in collections.recipe %}
     <div class="spread" data-title="{{dish.data.title}}">
       <div class="page verso">
-        <img class='recipe-image' src="{{dish.data.thumb | prepend: "/assets/images/" | url}}@800w.webp" alt="">
+        {% assign path = dish.data.thumb | prepend: "./assets/images/" %}
+        {% fig path, "(min-width: 30em) 50vw, 100vw", "" %}
         <aside class="recipe-ingredients" data-position={{dish.data.recipePosition}}>
           <h3>Ingredients</h3>
           <ul>

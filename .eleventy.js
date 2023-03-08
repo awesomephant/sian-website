@@ -1,20 +1,24 @@
-const pluginSass = require("eleventy-plugin-sass");
+const Image = require("@11ty/eleventy-img")
+
+async function figureShortcode(src, sizes, alt) {
+  let metadata = await Image(src, {
+    widths: [300, 800],
+    formats: ["avif", "webp", "jpeg"],
+    outputDir: "./_site/assets/",
+    urlPath: "/assets/",
+  })
+
+  let imageAttributes = {
+    sizes,
+    alt,
+    loading: "lazy",
+    decoding: "async",
+    class: "recipe-image",
+  }
+  return Image.generateHTML(metadata, imageAttributes)
+}
 
 module.exports = function (eleventyConfig) {
-     eleventyConfig.addShortcode("fig", function (url, caption) {
-        return (
-            `<figure><img loading="lazy" src='/assets/${url}'/><figcaption>${caption}</figcaption></figure>
-            `
-        );
-    });
-
-    eleventyConfig.addPassthroughCopy("js");
-    eleventyConfig.addPassthroughCopy("assets");
-    eleventyConfig.addPassthroughCopy("/*.png");
-    eleventyConfig.addPassthroughCopy("/*.png");
-    eleventyConfig.addPassthroughCopy("/*.xml");
-    eleventyConfig.addPassthroughCopy("favicon.ico");
-    eleventyConfig.addPassthroughCopy("site.webmanifest");
-
-    eleventyConfig.addPlugin(pluginSass, {});
-};
+  eleventyConfig.addAsyncShortcode("fig", figureShortcode)
+  eleventyConfig.addPassthroughCopy("assets")
+}
