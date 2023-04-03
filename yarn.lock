@@ -45,17 +45,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@11ty/eleventy-img@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "@11ty/eleventy-img@npm:3.0.0"
+"@11ty/eleventy-img@npm:^3.1.0":
+  version: 3.1.0
+  resolution: "@11ty/eleventy-img@npm:3.1.0"
   dependencies:
     "@11ty/eleventy-fetch": ^3.0.0
     debug: ^4.3.4
     entities: ^4.4.0
     image-size: ^1.0.2
     p-queue: ^6.6.2
-    sharp: ^0.31.3
-  checksum: 37e7954531c73639d6adbed924e6018aecd53e5123f4488322a857b45805eaa977ac34e699af71e23a69fd3c975b049c0027c16d895df93a13c13e9b53d11328
+    sharp: ^0.32.0
+  checksum: b6aa4f2ecfc6d696b9d11353c212f42dbf2d7c608b2df4215d6a682a6bab02d160f8a30d9dc3e16961c1792dcb630ee3557abf9aedb739e2b913f030d5dcf10f
   languageName: node
   linkType: hard
 
@@ -3115,12 +3115,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"node-addon-api@npm:^5.0.0":
-  version: 5.1.0
-  resolution: "node-addon-api@npm:5.1.0"
+"node-addon-api@npm:^6.0.0":
+  version: 6.0.0
+  resolution: "node-addon-api@npm:6.0.0"
   dependencies:
     node-gyp: latest
-  checksum: 2508bd2d2981945406243a7bd31362fc7af8b70b8b4d65f869c61731800058fb818cc2fd36c8eac714ddd0e568cc85becf5e165cebbdf7b5024d5151bbc75ea1
+  checksum: a34a901b9f0d6d201a173e12ed378033e4e0f27f77fd27c225dc7e6f96e88a88e94bd78b2b0404fc95deee20a137f1cbfc92738cbfba38862ed9b6c2e61c1ab2
   languageName: node
   linkType: hard
 
@@ -4056,20 +4056,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sharp@npm:^0.31.3":
-  version: 0.31.3
-  resolution: "sharp@npm:0.31.3"
+"sharp@npm:^0.32.0":
+  version: 0.32.0
+  resolution: "sharp@npm:0.32.0"
   dependencies:
     color: ^4.2.3
     detect-libc: ^2.0.1
-    node-addon-api: ^5.0.0
+    node-addon-api: ^6.0.0
     node-gyp: latest
     prebuild-install: ^7.1.1
     semver: ^7.3.8
     simple-get: ^4.0.1
     tar-fs: ^2.1.1
     tunnel-agent: ^0.6.0
-  checksum: 29fd1dfbc616c6389f53f366cec342b4353d9f2a37e98952ca273db38dca57dfa0f336322d6d763f0fae876042ead22fd86ffe26d70c32ade2458d421db60d04
+  checksum: 82c6046038f45f1fdeb732cff8be6a8a3fb5eb25f46f4c3ecb4b71363c2c387b52de8c0c5c4674f2400663e467b8a7b93dbc5d70b3f0e145cb45fc27d39c5709
   languageName: node
   linkType: hard
 
@@ -4117,7 +4117,7 @@ __metadata:
   resolution: "sian-website@workspace:."
   dependencies:
     "@11ty/eleventy": ^2.0.0
-    "@11ty/eleventy-img": ^3.0.0
+    "@11ty/eleventy-img": ^3.1.0
     npm-run-all: ^4.1.5
     sass: ^1.60.0
     webpack: ^5.76.3
