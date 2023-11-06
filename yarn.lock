@@ -45,17 +45,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@11ty/eleventy-img@npm:^3.1.6":
-  version: 3.1.6
-  resolution: "@11ty/eleventy-img@npm:3.1.6"
+"@11ty/eleventy-img@npm:^3.1.8":
+  version: 3.1.8
+  resolution: "@11ty/eleventy-img@npm:3.1.8"
   dependencies:
     "@11ty/eleventy-fetch": ^4.0.0
+    brotli-size: ^4.0.0
     debug: ^4.3.4
     entities: ^4.5.0
     image-size: ^1.0.2
     p-queue: ^6.6.2
     sharp: ^0.32.6
-  checksum: e725da410ce671d1aebb05706f194b4967c0937a60c64edb09c39bcfbd7b35c3c571b7c003fdfcb103b765b1cd0947993820b80685b28587f169efad67831119
+  checksum: fae2c1ef99397bbe976e891142be9f8b57223846585011680c2159e5811fece876bd7a906f63d6a70e3c1d458faea15872d485376e1039e0c68749b5188d1fdf
   languageName: node
   linkType: hard
 
@@ -918,6 +919,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"brotli-size@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "brotli-size@npm:4.0.0"
+  dependencies:
+    duplexer: 0.1.1
+  checksum: 2a9e08347668f97e8a0e6edfff8860468b4705cf2e18d072c3e849d24db24bc0946fdbab204f6085c3565b047cfc988104500f0f7b5ff77e987feab0f04fc52f
+  languageName: node
+  linkType: hard
+
 "browserslist@npm:^4.14.5":
   version: 4.21.5
   resolution: "browserslist@npm:4.21.5"
@@ -1373,6 +1383,13 @@ __metadata:
     domelementtype: ^2.2.0
     domhandler: ^4.2.0
   checksum: abf7434315283e9aadc2a24bac0e00eab07ae4313b40cc239f89d84d7315ebdfd2fb1b5bf750a96bc1b4403d7237c7b2ebf60459be394d625ead4ca89b934391
+  languageName: node
+  linkType: hard
+
+"duplexer@npm:0.1.1":
+  version: 0.1.1
+  resolution: "duplexer@npm:0.1.1"
+  checksum: fc7937c4a43808493cd63dfa59f4deb6cf02beea783cb17f39677b53ccacb9fba48f87731b8944048dd6dfa8f456d0725f86f3fd587ab780532d9a8e2914e8b7
   languageName: node
   linkType: hard
 
@@ -4161,7 +4178,7 @@ __metadata:
   resolution: "sian-website@workspace:."
   dependencies:
     "@11ty/eleventy": ^2.0.1
-    "@11ty/eleventy-img": ^3.1.6
+    "@11ty/eleventy-img": ^3.1.8
     npm-run-all: ^4.1.5
     sass: ^1.69.5
     webpack: ^5.89.0
