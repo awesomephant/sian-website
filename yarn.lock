@@ -45,9 +45,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@11ty/eleventy-img@npm:^4.0.1":
-  version: 4.0.1
-  resolution: "@11ty/eleventy-img@npm:4.0.1"
+"@11ty/eleventy-img@npm:^4.0.2":
+  version: 4.0.2
+  resolution: "@11ty/eleventy-img@npm:4.0.2"
   dependencies:
     "@11ty/eleventy-fetch": ^4.0.0
     brotli-size: ^4.0.0
@@ -56,7 +56,7 @@ __metadata:
     image-size: ^1.1.1
     p-queue: ^6.6.2
     sharp: ^0.33.2
-  checksum: 73f943cc5f07763274a8fedd1c975021b487602fed13b774010b1a7581cafcc5c4aac52a21fa475e62e48db803814eb0482b45ef5fe319b9a4a8d9f890f1dacc
+  checksum: 9fe9e13662e24277dd7223b205ea64230dd90a13f653c0474778b85a71d9698ea0d90e65bb6ee85978ce06b9a3ce5aa857319befbe149c7be1dd8ac390ecb219
   languageName: node
   linkType: hard
 
@@ -4236,7 +4236,7 @@ __metadata:
   resolution: "sian-website@workspace:."
   dependencies:
     "@11ty/eleventy": ^2.0.1
-    "@11ty/eleventy-img": ^4.0.1
+    "@11ty/eleventy-img": ^4.0.2
     npm-run-all: ^4.1.5
     sass: ^1.71.0
     webpack: ^5.90.1
